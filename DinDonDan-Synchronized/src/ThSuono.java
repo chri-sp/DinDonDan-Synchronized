@@ -7,14 +7,7 @@
 
 import java.util.concurrent.ThreadLocalRandom;
 
-/**
- *
- * @author Princess Joy Padua
- *
- * @brief Classe per la gestione dei suoni
- *
- *
- */
+
 public class ThSuono extends Thread {
 
     /**

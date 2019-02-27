@@ -7,18 +7,9 @@
 
 import java.util.concurrent.Semaphore;
 
-/**
- *
- * @author Princess Joy Padua
- * 
- */
+
 public class DatiCondivisi {
-    /**
-     * @author Princess Joy Padua 
-     * 
-     * Creo variabili di tipo int che mi vanno a contare i suoni effettuati dai thread.
-     * 
-     */
+
     int contaDIN=0,contaDON=0,contaDAN=0;
     
     int maxElem=10000000;
@@ -98,13 +89,7 @@ public class DatiCondivisi {
     
     
     
-    /**
-     * 
-     * @param c Indico la scelta effettuata dall'untete fatta nel main
-     * 
-     * @return indica se hai vinto o no.
-     * 
-     */
+  
     public synchronized String verificaSeHaiVinto(int c) {
         String x="Hai Perso";
         if(c==1 && contaDIN>contaDON && contaDIN>contaDAN) {
